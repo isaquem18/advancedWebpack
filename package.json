@@ -1,0 +1,25 @@
+{
+  "name": "advancedWebpack",
+  "version": "1.0.0",
+  "description": "Repositorio voltado aos estudos sobre webpack, do basico ao avancado.",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/isaquem18/advancedWebpack.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/isaquem18/advancedWebpack/issues"
+  },
+  "homepage": "https://github.com/isaquem18/advancedWebpack#readme",
+  "devDependencies": {
+    "webpack": "^5.32.0",
+    "webpack-cli": "^4.6.0"
+  }
+}

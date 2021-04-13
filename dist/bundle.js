@@ -1,0 +1,1 @@
+(()=>{"use strict";document.querySelector(".button").addEventListener("click",(()=>{console.log("Ola, bom dia, seja muito bem vindo, isaque!")})),["ana","bruna","carla","erick"].forEach((e=>console.log(e)))})();
