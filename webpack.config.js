@@ -1,26 +1,22 @@
-const { resolve } = require('path');
+const path = require('path');
 
 module.exports = {
     mode: 'production',
     entry: './src/index.js',
     output: {
-        path: resolve(__dirname, 'dist'),
+        path: path.resolve(__dirname, 'build'),
         filename: 'bundle.js',
     },
     module: {
         rules: [
             {
-                test: /\.css$/,
-                use: ['style-loader', 'css-loader'],
-            },
-            {
-                test: /\.(png|jpg|jpeg)$/,
-                use: ['file-loader'],
-            }, 
-            {
                 test: /\.scss$/,
                 use: ['style-loader', 'css-loader', 'sass-loader'],
+            },
+            {
+                test: /\.(png|jpeg|jpg)/,
+                use: ['file-loader'],
             }
         ]
     }
-};
+}
